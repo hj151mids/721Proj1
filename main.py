@@ -8,7 +8,7 @@ async def root():
     return {"message": "Completed Project 1"}
     
 @app.get("/multiply/{num1}/{num2}")
-async def add(num1: int, num2: int):
+async def multiply(num1: int, num2: int):
     """Multiply two numbers together"""
     total = num1 * num2
     return {"total": total}

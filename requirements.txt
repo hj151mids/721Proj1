@@ -3,3 +3,4 @@ black == 22.1.0
 fastapi == 0.73.0
 pylint == 2.12.2
 uvicorn[standard]
+requests
